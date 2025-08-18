@@ -36,3 +36,17 @@ O objetivo é criar uma plataforma que facilite o processo de **encontrar pets d
 
 ## 📂 Estrutura do Projeto
 
+FindMyPet/
+│
+├── app/
+│ ├── main.py # Entrada da aplicação FastAPI
+│ ├── database.py # Conexão com o banco
+│ ├── models.py # Modelos Pydantic
+│ ├── templates/ # Páginas HTML
+│ │ └── index.html
+│ ├── static/ # Arquivos estáticos (CSS/JS)
+│ │ ├── style.css
+│ │ └── script.js
+│
+├── .env # Configurações (ex.: URL do MongoDB)
+├── requirements.txt # Dependências do projeto
