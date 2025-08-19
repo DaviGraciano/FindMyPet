@@ -36,7 +36,7 @@ def get_db():
 # rota inicial -> carrega formulário
 @app.get("/", response_class=HTMLResponse)
 def form_sing_up(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse("register_user.html", {"request": request})
 
 # rota para cadastro via JSON (API)
 @app.post("/cadastro")
